@@ -307,8 +307,8 @@ importers:
         specifier: ^7.2.1
         version: 7.2.1(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.20.6)
       vite-plugin-manus-runtime:
-        specifier: ^0.0.55
-        version: 0.0.55
+        specifier: ^0.0.56
+        version: 0.0.56
       vitest:
         specifier: ^4.0.7
         version: 4.0.7(@types/debug@4.1.12)(@types/node@24.7.0)(jiti@2.6.1)(jsdom@27.1.0)(lightningcss@1.30.2)(tsx@4.20.6)
@@ -4668,8 +4668,8 @@ packages:
   victory-vendor@36.9.2:
     resolution: {integrity: sha512-PnpQQMuxlwYdocC8fIJqVXvkeViHYzotI+NJrCuav0ZYFoq912ZHBk3mCeuj+5/VpodOjPe1z0Fk2ihgzlXqjQ==}
 
-  vite-plugin-manus-runtime@0.0.55:
-    resolution: {integrity: sha512-oBEj44z62ZA4p4SCFtqzuZA6Q9vBYZ/mm9Pz351sa9mOBzL45MmZ2euYcGT5qFq+UZgyZRPPWde1OihexUBp6A==}
+  vite-plugin-manus-runtime@0.0.56:
+    resolution: {integrity: sha512-BkRMoFzUtT5enXBl+PO0h81KH+4uK4WpLGOp1tvljafb6fp9UX0b1klfxQz9QZFEdB8IPQTEkNzfqv09fHrkMw==}
 
   vite@7.2.1:
     resolution: {integrity: sha512-qTl3VF7BvOupTR85Zc561sPEgxyUSNSvTQ9fit7DEMP7yPgvvIGm5Zfa1dOM+kOwWGNviK9uFM9ra77+OjK7lQ==}
@@ -10295,7 +10295,7 @@ snapshots:
       d3-time: 3.1.0
       d3-timer: 3.0.1
 
-  vite-plugin-manus-runtime@0.0.55:
+  vite-plugin-manus-runtime@0.0.56:
     dependencies:
       '@medv/finder': 4.0.2
       clsx: 2.1.1
