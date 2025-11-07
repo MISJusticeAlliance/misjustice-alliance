@@ -25,10 +25,7 @@ jobs:
       run: pnpm install
       
     - name: Type check
-      run: pnpm type-check
-      
-    - name: Lint
-      run: pnpm lint
+      run: pnpm check
       
     - name: Build
       run: pnpm build
