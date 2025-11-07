@@ -1,0 +1,20 @@
+CREATE TABLE `redactionAudit` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`attachmentId` int NOT NULL,
+	`caseId` varchar(64) NOT NULL,
+	`piiDetected` int NOT NULL DEFAULT 0,
+	`piiRedacted` int NOT NULL DEFAULT 0,
+	`riskScore` int NOT NULL DEFAULT 0,
+	`piiTypes` text,
+	`originalTextSample` text,
+	`redactedTextSample` text,
+	`extractionMethod` varchar(50),
+	`processingTimeMs` int,
+	`status` enum('PENDING','PROCESSING','COMPLETED','FAILED','MANUAL_REVIEW') NOT NULL DEFAULT 'PENDING',
+	`reviewedBy` varchar(100),
+	`reviewNotes` text,
+	`reviewedAt` timestamp,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `redactionAudit_id` PRIMARY KEY(`id`)
+);

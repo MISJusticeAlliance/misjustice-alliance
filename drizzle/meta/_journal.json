@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1762413155752,
+      "tag": "0000_stiff_punisher",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1762413240352,
+      "tag": "0001_modern_blue_marvel",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1762417170764,
+      "tag": "0002_superb_piledriver",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1762431926596,
+      "tag": "0003_tense_ink",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1762439160545,
+      "tag": "0004_unique_lethal_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1762441959516,
+      "tag": "0005_greedy_corsair",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1762447340933,
+      "tag": "0006_daily_longshot",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1762450696463,
+      "tag": "0007_hesitant_thor",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1762477713419,
+      "tag": "0008_illegal_machine_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1762478221190,
+      "tag": "0009_rare_dust",
+      "breakpoints": true
+    }
+  ]
+}

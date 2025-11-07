@@ -1,0 +1,23 @@
+CREATE TABLE `caseAttachments` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`submissionId` int NOT NULL,
+	`caseId` varchar(64) NOT NULL,
+	`fileName` varchar(255) NOT NULL,
+	`originalFileName` varchar(255) NOT NULL,
+	`mimeType` varchar(100) NOT NULL,
+	`fileSize` int NOT NULL,
+	`s3Key` varchar(500) NOT NULL,
+	`s3Url` text NOT NULL,
+	`fileType` enum('DOCUMENT','IMAGE','EVIDENCE','LEGAL_BRIEF','OTHER') NOT NULL DEFAULT 'OTHER',
+	`uploadedBy` varchar(100),
+	`isEncrypted` boolean NOT NULL DEFAULT false,
+	`encryptionKey` text,
+	`description` text,
+	`tags` text,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	`deletedAt` timestamp,
+	`downloadCount` int NOT NULL DEFAULT 0,
+	`lastDownloadedAt` timestamp,
+	CONSTRAINT `caseAttachments_id` PRIMARY KEY(`id`)
+);
